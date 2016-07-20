@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_toolbar_height"
+        android:layout_marginLeft="@dimen/main_fragment_layout_left_right_margin"
+        android:layout_marginRight="@dimen/main_fragment_layout_left_right_margin"
+        android:background="@drawable/toolbar"
+        android:minWidth="@dimen/main_fragment_long_btn_width"
+        android:orientation="horizontal">
+
+
+        <ato.spordiklubi.lastemvpublic.app.view.TypefaceTextView
+            style="@style/FontBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:minHeight="@dimen/custom_toolbar_height"
+            android:minWidth="@dimen/main_fragment_long_btn_width"
+            android:text="@string/toolbar_register_fragment"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_common_1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/main_fragment_layout_left_right_margin"
+        android:layout_marginRight="@dimen/main_fragment_layout_left_right_margin">
+
+        <ato.spordiklubi.lastemvpublic.app.view.TypefaceEditText
+            android:id="@+id/edittext_firstname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:minWidth="@dimen/edit_text_min_width"
+            android:hint="@string/hint_firstname"/>
+        <ato.spordiklubi.lastemvpublic.app.view.TypefaceEditText
+            android:id="@+id/edittext_lastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:minWidth="@dimen/edit_text_min_width"
+            android:hint="@string/hint_lastname"/>
+        <ato.spordiklubi.lastemvpublic.app.view.TypefaceEditText
+            android:id="@+id/edittext_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:minWidth="@dimen/edit_text_min_width"
+            android:hint="@string/hint_age"/>
+        <ato.spordiklubi.lastemvpublic.app.view.TypefaceEditText
+            android:id="@+id/edittext_parent_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:minWidth="@dimen/edit_text_min_width"
+            android:hint="@string/hint_parent_phone"/>
+        <ato.spordiklubi.lastemvpublic.app.view.TypefaceEditText
+            android:id="@+id/edittext_parent_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:minWidth="@dimen/edit_text_min_width"
+            android:hint="@string/hint_parent_email"/>
+    </LinearLayout>
+</LinearLayout>

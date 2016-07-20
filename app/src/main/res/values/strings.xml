@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LasteMVPublic</string>
+    <string name="toolbar_main_fragment">Avaleht</string>
+    <string name="btn_look_results">Vaata tulemusi</string>
+    <string name="btn_register">Registreeru</string>
+    <string name="text_welcome">Donec sollicitudin eros tempus ante efficitur commodo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce consequat nec orci sed ultricies. Fusce odio sem, fringilla non arcu id, molestie dictum lectus. Vivamus et erat ut lectus fringilla finibus at et turpis. Cras lectus massa, ultrices a lobortis non, pellentesque vitae nisl. Sed elementum, nibh ut aliquet ultricies, eros augue dictum magna, eu pharetra nisi libero ac diam. Aenean consequat, lacus nec ultrices gravida, erat ex pulvinar lacus, eu congue sem nulla quis odio. Sed condimentum diam vehicula ullamcorper imperdiet. Donec elementum risus sit amet mattis interdum. Curabitur id sollicitudin nisl, eu ultrices libero. Cras volutpat ligula sed elit fringilla, sit amet malesuada nisi accumsan. Etiam volutpat ultrices metus at scelerisque. Donec quis consequat ante, et luctus turpis.</string>
+    <string name="toolbar_register_fragment">Registreeru</string>
+    <string name="hint_firstname">Eesnimi</string>
+    <string name="hint_lastname">Perenimi</string>
+    <string name="hint_age">Vanus</string>
+    <string name="hint_parent_phone">Lapsevanema telefon</string>
+    <string name="hint_parent_email">Lapsevanema email</string>
+</resources>

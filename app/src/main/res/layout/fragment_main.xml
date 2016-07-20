@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_toolbar_height"
+        android:layout_marginLeft="@dimen/main_fragment_layout_left_right_margin"
+        android:layout_marginRight="@dimen/main_fragment_layout_left_right_margin"
+        android:background="@drawable/toolbar"
+        android:minWidth="@dimen/main_fragment_long_btn_width"
+        android:orientation="horizontal">
+
+
+        <ato.spordiklubi.lastemvpublic.app.view.TypefaceTextView
+            style="@style/FontBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:minHeight="@dimen/custom_toolbar_height"
+            android:minWidth="@dimen/main_fragment_long_btn_width"
+            android:text="@string/toolbar_main_fragment"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_common_1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dicipline_fragment_component_top_bottom_margin"
+        android:layout_marginLeft="@dimen/main_fragment_layout_left_right_margin"
+        android:layout_marginRight="@dimen/main_fragment_layout_left_right_margin"
+        android:layout_marginTop="@dimen/dicipline_fragment_component_top_bottom_margin"
+        android:minHeight="300dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_welcome" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/main_fragment_layout_left_right_margin"
+        android:layout_marginRight="@dimen/main_fragment_layout_left_right_margin"
+        android:orientation="vertical">
+
+        <ato.spordiklubi.lastemvpublic.app.view.TypefaceTextView
+            android:id="@+id/btn_look_results"
+            style="@style/Button.White.Bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/dicipline_fragment_component_top_bottom_margin"
+            android:text="@string/btn_look_results"
+            android:textColor="@color/accent" />
+
+        <ato.spordiklubi.lastemvpublic.app.view.TypefaceTextView
+            android:id="@+id/btn_register"
+            style="@style/Button.White.Bold"
+            android:layout_width="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/btn_register" />
+    </LinearLayout>
+</LinearLayout>
