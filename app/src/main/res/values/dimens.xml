@@ -45,5 +45,7 @@
     <dimen name="event_fragment_smaller_button_min_height">60dp</dimen>
     <dimen name="text_size_common_2a">15sp</dimen>
     <dimen name="text_size_common_0">13sp</dimen>
+    <dimen name="text_size_common_5">18sp</dimen>
+    <dimen name="label_left_padding">6dp</dimen>
     <dimen name="edit_text_min_width">180dp</dimen>
 </resources>

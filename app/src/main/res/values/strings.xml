@@ -10,4 +10,8 @@
     <string name="hint_age">Vanus</string>
     <string name="hint_parent_phone">Lapsevanema telefon</string>
     <string name="hint_parent_email">Lapsevanema email</string>
+    <string name="radio_male">Poiss</string>
+    <string name="radio_female">Tüdruk</string>
+    <string name="label_gender">Sugu</string>
+    <string name="btn_submit">Registreeri laps</string>
 </resources>
